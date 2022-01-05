@@ -9,5 +9,3 @@ Objects: Webcam:
             filepath
             api
             share()
-
-
