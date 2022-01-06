@@ -9,6 +9,7 @@
             play: False
             size_hint_y: 0.8
             opacity: 0 
+            allow_stretch: True
         Button:
             id: camera_button
             text: 'Start Camera'
@@ -63,7 +64,7 @@
 <RootWidget>:
     canvas.before:
         Color:
-            rgba: (0.1, 0.5, 0.7, 1)
+            rgba: (0.1, 0.1, 0.1, 1)
         Rectangle:
             pos: self.pos
             size: self.size
